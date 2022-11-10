@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="10" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56121" started-at="2022-11-10T13:13:46Z" finished-at="2022-11-10T13:14:42Z">
+    <groups>
+      <group name="smoke">
+        <method signature="testn.test1(java.lang.String, java.lang.String)[pri:1, instance:com.testng.testn@52a86356]" name="test1" class="com.testng.testn"/>
+        <method signature="testn.test2(java.lang.String)[pri:2, instance:com.testng.testn@52a86356]" name="test2" class="com.testng.testn"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="amazon.test1(java.lang.String)[pri:1, instance:com.testng.amazon@5ce81285]" name="test1" class="com.testng.amazon"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="56121" started-at="2022-11-10T13:13:46Z" finished-at="2022-11-10T13:14:42Z">
+      <class name="com.testng.testn">
+        <test-method status="PASS" signature="Beforeclass()[pri:0, instance:com.testng.testn@52a86356]" name="Beforeclass" is-config="true" duration-ms="47088" started-at="2022-11-10T18:43:46Z" finished-at="2022-11-10T18:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:com.testng.testn@52a86356]" name="Beforemethod" is-config="true" duration-ms="0" started-at="2022-11-10T18:44:33Z" finished-at="2022-11-10T18:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:1, instance:com.testng.testn@52a86356]" name="test1" duration-ms="3474" started-at="2022-11-10T18:44:33Z" data-provider="login" finished-at="2022-11-10T18:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SARAVANAN]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="Afteremethod()[pri:0, instance:com.testng.testn@52a86356]" name="Afteremethod" is-config="true" duration-ms="0" started-at="2022-11-10T18:44:37Z" finished-at="2022-11-10T18:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afteremethod -->
+        <test-method status="PASS" signature="test2(java.lang.String)[pri:2, instance:com.testng.testn@52a86356]" name="test2" duration-ms="304" started-at="2022-11-10T18:44:42Z" finished-at="2022-11-10T18:44:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VIVO MOBILES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:com.testng.testn@52a86356]" name="Beforemethod" is-config="true" duration-ms="0" started-at="2022-11-10T18:44:42Z" finished-at="2022-11-10T18:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="Afteremethod()[pri:0, instance:com.testng.testn@52a86356]" name="Afteremethod" is-config="true" duration-ms="1" started-at="2022-11-10T18:44:42Z" finished-at="2022-11-10T18:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afteremethod -->
+        <test-method status="PASS" signature="Afterclass()[pri:0, instance:com.testng.testn@52a86356]" name="Afterclass" is-config="true" duration-ms="0" started-at="2022-11-10T18:44:42Z" finished-at="2022-11-10T18:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- com.testng.testn -->
+      <class name="com.testng.amazon">
+        <test-method status="PASS" signature="Beforeclass()[pri:0, instance:com.testng.amazon@5ce81285]" name="Beforeclass" is-config="true" duration-ms="2900" started-at="2022-11-10T18:44:37Z" finished-at="2022-11-10T18:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method status="PASS" signature="test1(java.lang.String)[pri:1, instance:com.testng.amazon@5ce81285]" name="test1" duration-ms="2303" started-at="2022-11-10T18:44:40Z" finished-at="2022-11-10T18:44:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[REDMI MOBILES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="Beforemethod()[pri:0, instance:com.testng.amazon@5ce81285]" name="Beforemethod" is-config="true" duration-ms="0" started-at="2022-11-10T18:44:40Z" finished-at="2022-11-10T18:44:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforemethod -->
+        <test-method status="PASS" signature="Afteremethod()[pri:0, instance:com.testng.amazon@5ce81285]" name="Afteremethod" is-config="true" duration-ms="0" started-at="2022-11-10T18:44:42Z" finished-at="2022-11-10T18:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afteremethod -->
+        <test-method status="PASS" signature="Afterclass()[pri:0, instance:com.testng.amazon@5ce81285]" name="Afterclass" is-config="true" duration-ms="0" started-at="2022-11-10T18:44:42Z" finished-at="2022-11-10T18:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- com.testng.amazon -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="flipmob" value="VIVO MOBILES"></parameter>
+  <parameter name="amazmob" value="REDMI MOBILES"></parameter>
+  <groups>
+  <run>
+  <include name="default"/>
+   <include name="smoke"/>
+    <include name="sanity"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.testng.testn"/>
+      <class name="com.testng.amazon"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

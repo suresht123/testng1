@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.testng.amazon">
-        <methods>
-          <include name="Afterclass"/>
-          <include name="Afteremethod"/>
-          <include name="test2"/>
-          <include name="Beforeclass"/>
-          <include name="Beforemethod"/>
-        </methods>
-      </class> <!-- com.testng.amazon -->
       <class name="com.testng.testn">
         <methods>
           <include name="test6"/>
@@ -19,14 +10,12 @@
           <include name="test4"/>
           <include name="test7"/>
           <include name="test2"/>
-          <include name="test5"/>
           <include name="Beforeclass"/>
           <include name="test3"/>
-          <include name="test1"/>
           <include name="Afteremethod"/>
           <include name="Afterclass"/>
         </methods>
       </class> <!-- com.testng.testn -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

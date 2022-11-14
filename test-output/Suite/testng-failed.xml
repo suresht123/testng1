@@ -2,27 +2,21 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
+    <parameter name="flipmob" value="VIVO MOBILES"/>
+    <parameter name="amazmob" value="REDMI MOBILES"/>
+    <groups>
+      <run>
+        <include name="default"/>
+        <include name="smoke"/>
+        <include name="sanity"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.testng.amazon">
-        <methods>
-          <include name="Afterclass"/>
-          <include name="Afteremethod"/>
-          <include name="test2"/>
-          <include name="Beforeclass"/>
-          <include name="Beforemethod"/>
-        </methods>
-      </class> <!-- com.testng.amazon -->
       <class name="com.testng.testn">
         <methods>
-          <include name="test6"/>
           <include name="Beforemethod"/>
-          <include name="test4"/>
-          <include name="test7"/>
-          <include name="test2"/>
-          <include name="test5"/>
           <include name="Beforeclass"/>
-          <include name="test3"/>
-          <include name="test1"/>
+          <include name="test1" invocation-numbers="0"/>
           <include name="Afteremethod"/>
           <include name="Afterclass"/>
         </methods>
